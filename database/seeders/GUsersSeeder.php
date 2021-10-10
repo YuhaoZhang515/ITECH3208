@@ -17,12 +17,12 @@ class GUsersSeeder extends Seeder
     {
         DB::table('g_users')->insert([
             [
-                'full_name' => "akshay",
-                'email' => 'akshay@gmail.com',
-                'phone' => '+6154789652',
+                'full_name' => "rijal",
+                'email' => 'rijal@gmail.com',
+                'phone' => '+61406507740',
                 'password' => Hash::make('12345678'),
-                'billing_address' => 'Karachi Tariq Road',
-                'shipping_address' => 'Karachi Tariq Road Shipping',
+                'billing_address' => 'sydney',
+                'shipping_address' => 'sydney',
             ]
         ]);
     }
